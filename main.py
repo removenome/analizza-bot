@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
 
-ANALIZZA_BASE = 'https://www.analizzascore.com.br'
+ANALIZZA_BASE = 'https://www.analizzascore.com.br/auth/login.php'
 ANALIZZA_USUARIO = os.environ.get('ANALIZZA_USUARIO', 'remove')
 ANALIZZA_SENHA = os.environ.get('ANALIZZA_SENHA', '291185')
 
